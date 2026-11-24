@@ -1,5 +1,7 @@
 # ComfyUI-FlipperZveroboy
 
+![image](image.jpg)
+
 Кастомная нода для ComfyUI, которая случайно меняет местами значения `width` и `height`.
 
 ## Что делает нода
