@@ -2,11 +2,8 @@
 
 ![image](image.jpg)
 
-<<<<<<< HEAD
 ## Русская секция
 
-=======
->>>>>>> origin/master
 Кастомная нода для ComfyUI, которая случайно меняет местами значения `width` и `height`.
 
 ### Что делает нода
@@ -72,7 +69,7 @@
 ComfyUI кэширует результаты нод, если входные данные не изменились.
 
 Чтобы случайная перестановка `width` и `height` происходила при каждом запуске, в ноде реализован метод `IS_CHANGED`, который принудительно инвалидирует кэш ноды.
-<<<<<<< HEAD
+
 
 ## English section
 
@@ -141,5 +138,3 @@ The node outputs `width` and `height` can be connected, for example, to:
 ComfyUI caches node results if the input data has not changed.
 
 To make the random swap of `width` and `height` happen on every run, the node implements the `IS_CHANGED` method, which forces the node cache to be invalidated.
-=======
->>>>>>> origin/master
